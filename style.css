@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+#menu_bar{
+    height: 100px;
+    width: 100%;
+    border-width: 0px 0px 1px 0px ;
+    border-style: solid;
+    border-color: lightgray;
+    background-color:white;
+}
+.describe{
+    height: 100px;
+    width: 200px;
+    background-color:white;
+    border: 2px solid #000;
+}
+
+#submitBtn{
+    width: 400px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 2px;
+    margin: auto;
+}
+#custom_file_upload{
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+#banner{
+    height: 100px;
+    width: 800px;
+    font-size: 100px;
+    background-color: #3e8e41;
+    margin: 40px auto;
+    text-align: center;
+}
+#drop-zone {
+    height: 300px;
+    width: 1100px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: gray;
+}
+
+#list {
+    margin: 10px 0;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-flow: wrap-reverse;
+    height: auto;
+    width: 1000px;
+    padding: auto;
+    border-radius: 10px;
+    margin: 100px auto;
+
+
+}
+/* .flex-container.stretch{align-content: stretch;} */
+.flex-container.stretch{justify-content: space-around;}
+
+ 
+.describe_item{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px auto;
+    color: #000;
+
+    
+}
+.describe_title{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.describe_content{
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+
+
+.describe_img{
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    
+}
