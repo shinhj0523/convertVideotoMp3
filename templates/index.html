@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>File Upload</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 	<header id="header">
@@ -17,14 +17,13 @@
 			<div id="banner">
 				광고 자리
 			</div>
-
 			<!-- upload file -->
 			<div id="drop-zone">
-				<form action="/susses" method="post" enctype="multipart/form-data">
-					<input type="file" name="file" id="file_input" style="display:none;" accept="video/*">
+				<form action="success.html" method="get" enctype="multipart/form-data">
+					<input type="file" name="file_input" id="file_input" style="display:none;" accept="video/*">
 					<label for="file_input" id="custom_file_upload"><br>파일 선택</label>
 					<div id="list"></div>
-				<button type="submit" id="submitBtn" onclick="alert('submit')">변 환 하 기</button>
+					<button type="submit" id="submitBtn" onclick="alert('submit')">변 환 하 기</button>
 				</form>
 			</div>
 		</header>
@@ -91,7 +90,7 @@
 	
 
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 
 	<footer id="footer">
 
